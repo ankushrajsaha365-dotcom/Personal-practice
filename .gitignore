@@ -1,0 +1,11 @@
+# C
+a
+a.out
+*.out
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/

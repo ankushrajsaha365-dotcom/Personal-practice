@@ -13,5 +13,5 @@ int main(){
     std::cout << "Hypotenuse is " << c <<" unit";
 
 
-
+    return 0;
 }

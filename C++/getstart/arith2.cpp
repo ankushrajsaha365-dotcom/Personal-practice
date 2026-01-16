@@ -19,3 +19,5 @@ int main(){
 
     return 0;
 }
+
+//ref-> https://www.cplusplus.com/reference/cmath/

@@ -2,6 +2,10 @@
 a
 a.out
 *.out
+# C++
+a
+a.out
+*.out
 
 # Python
 __pycache__/

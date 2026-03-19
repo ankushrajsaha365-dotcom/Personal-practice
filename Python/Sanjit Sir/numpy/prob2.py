@@ -15,7 +15,8 @@ class C(B):
     def true_false(self):
         bool_list = list(map(bool, self.b))
         print(bool_list)
-
+        # mask = self.b == 1
+        # print(mask)
 
 check = C()
 check.split_array()

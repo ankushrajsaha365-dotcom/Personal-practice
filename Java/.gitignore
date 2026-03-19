@@ -1,0 +1,12 @@
+# Compiled files
+*.class
+
+# VS Code
+.vscode/
+
+# Libraries
+lib/
+
+# OS junk
+.DS_Store
+Thumbs.db

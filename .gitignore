@@ -7,5 +7,24 @@ a.out
 __pycache__/
 *.pyc
 
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Editor
 .vscode/
+.idea/
+*.swp

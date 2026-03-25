@@ -120,7 +120,7 @@ void end_del(int item){
 void pos_del(int item) {
 	struct node *ptr, *ptr1;
 	int loc, i;
-	printf("Enter the Location After what You Want the Detetion Operation : ");
+	printf("Enter the Location After what You Want the Deletion Operation : ");
 	scanf("%d", &loc);
 	ptr = head;
 	for(i=0;i<loc;i++) {

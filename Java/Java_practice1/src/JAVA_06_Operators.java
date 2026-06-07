@@ -14,7 +14,7 @@ public class JAVA_06_Operators {
 
         System.out.println(6>8);           //Comparison operator
 
-        System.out.println(12>3 || 4>6);   //Logical operator
+        //System.out.println(12>3 || 4>6);   //Logical operator
         System.out.println(12>3 && 4>6);
 
         System.out.println(2&3);           //Bitwise operator

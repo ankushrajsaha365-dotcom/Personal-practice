@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#define MAX 100
 void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -34,7 +34,7 @@ void quickSort(int arr[], int low, int high) {
 
 int main() {
 
-    int i, n, arr[100];
+    int i, n, arr[MAX];
 
     printf("Enter number of elements: ");
     scanf("%d", &n);

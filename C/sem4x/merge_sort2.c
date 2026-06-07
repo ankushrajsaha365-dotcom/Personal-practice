@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define MAX 100
 
 void merge(int arr[], int temp[], int left, int mid, int right) {
     int i = left;     
@@ -40,12 +41,12 @@ void display(int arr[], int n) {
 }
 
 int main() {
-    int n, arr[100], temp[100];
+    int n, arr[MAX], temp[MAX];
 
     printf("Enter number of elements: ");
     scanf("%d", &n);
 
-    printf("Enter %d elements: ", n);
+    printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++)
         scanf("%d", &arr[i]);
 

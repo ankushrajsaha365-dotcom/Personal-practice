@@ -52,9 +52,6 @@ int main() {
 
     printf("\n\nEnter key element: ");
     scanf("%d", &key);
-
- 
-    printf("\n1. Binary Search");
     
 
     index = binarysearch(A, n, key, &iteration1);

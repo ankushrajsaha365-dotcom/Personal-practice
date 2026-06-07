@@ -50,7 +50,7 @@ int main() {
     printf("Enter %d elements: ", n);
     for (i = 0; i < n; i++)
         scanf("%d", &arr[i]);
-    }
+    
 
     mergeSort(arr, 0, n - 1);
     printf("Sorted Array (Merge Sort): ");
